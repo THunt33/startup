@@ -1,62 +1,54 @@
-# Your startup name here
+# Startup - Fitness Website
 
 [My Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-> [!NOTE]
->  This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
-
-> [!NOTE]
->  If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
-
 ## 🚀 Specification Deliverable
-
-> [!NOTE]
->  Fill in this sections as the submission artifact for this deliverable. You can refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Tired of guessing how many calories to eat or whether your workouts are actually building strength? My website is an all-in-one fitness hub that takes the guesswork out of achieving your goals. Whether you want to lose weight, gain muscle, or crush personal records, my platform calculates your exact calorie needs gives you the relevant information to do so. Track every lift, log your weights, and watch your progress soar. See your strength grow week after week and stay motivated with a roadmap to success.
 
 ### Design
 
-![Design image](placeholder.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
+![Design image](fit_web.png)
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+-  Has a secure login over HTTPS
+- Personalized calorie calculator for weight loss/gain goals  
+- Strength training tracker with exercise database (track lifts, weights, sets/reps)  
+- Progress dashboard with charts/graphs for calories and weight changes
+- Personal Record tracking
+- Leaderboard data of other users 
+- Storage for all user progress and history  
+- Ability to enter in data
+- Display calculated data
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Uses correct HTML structure for application. Two HTML pages for the login page and dashboard.
+- **CSS** - Clean layouts for workout logs, charts, and forms. Styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
+- **React** 
+  - Calorie calculator form  
+  - Progress dashboard with charts  
+  - Routing between pages  
+- **Service** - Backend service with endpoints for:
+  - Login
+  - Calculating daily calorie goals  
+  - Saving/loading workout and weight data  
+  - Getting progress history 
+- **DB/Login** - Store users, workout logs (exercise, weight, reps) in database. Register and login users. User credentials securely stored in the database.
+- **WebSocket** - Instant updates to charts when new data is logged and is shown to other users if permitted.
 
 ## 🚀 AWS deliverable
 
