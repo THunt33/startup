@@ -60,15 +60,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - Two HTML page that will let you login and get information from the dashboard.
+- [x] **Proper HTML element usage** - I used header, footer, main, nav, img, a, input, button, form, and many more.
+- [x] **Links** - The login and dashboard page both have links to each other to navigate the site. Also included a link to my GitHub repo in the footers.
+- [x] **Text** - Instructions to login are on the login page. Additionally, a lot of text was needed on the dashboard page to guide the user and provide necessary information.
+- [x] **3rd party API placeholder** - index.html has a place to display an inspirational quote below the personal records section
+- [x] **Images** - Included images to both pages' headers.
+- [x] **Login placeholder** - Input boxes and submit button for login.
+- [x] **DB data placeholder** - Input box and 'calculate' button for calculator. Added input box and dropdown for Personal Records that pulls data from the database. The voting choices represent data pulled from the database.
+- [x] **WebSocket placeholder** - The leaderboard section shows real-time data from accounts
 
 ## 🚀 CSS deliverable
 

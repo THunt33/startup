@@ -1,6 +1,6 @@
 # CS 260 Notes
 
-[My startup - Simon](https://simon.cs260.click)
+[My startup - Fitness Website](https://thuntley.click)
 
 ## Helpful links
 
@@ -10,18 +10,29 @@
 
 ## AWS
 
-My IP address is: 54.81.96.130
-Launching my AMI I initially put it on a private subnet. Even though it had a public IP address and the security group was right, I wasn't able to connect to it.
+Launched instance. Added an elastic ip. Registed the domain: thuntley.click for my webpage.
 
 ## Caddy
 
-No problems worked just like it said in the [instruction](https://github.com/webprogramming260/.github/blob/main/profile/webServers/https/https.md).
+No problems worked just like it said in the [instruction](https://github.com/webprogramming260/.github/blob/main/profile/webServers/https/https.md). Modifed to use https and my domain name.
 
 ## HTML
 
-This was easy. I was careful to use the correct structural elements such as header, footer, main, nav, and form. The links between the three views work great using the `a` element.
+Deployed simon to my domain under simon.thuntley.click by running the script by "./deployFiles.sh -k production.pem -h thuntley.click -s simon"
 
-The part I didn't like was the duplication of the header and footer code. This is messy, but it will get cleaned up when I get to React.
+Added HTML pages with full fuctionality to startup
+
+Deployed the webpages to my website under the startup subdomain
+
+Helpful git commands:
+* git fetch - gets the latest information about the changes on GitHub without changing local repository
+* git status - you can see the differences between the clones
+* git pull - syncs the repository
+* git init - initialize project to use git
+* git add . - add all changes to be saved
+* git add *filename* - add single file to be saved
+* git commit -m message - save changes with message
+* git push - push changes to github
 
 ## CSS
 
