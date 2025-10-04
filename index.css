@@ -1,0 +1,31 @@
+.calculator-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.quote-box {
+  background-color: #20c997;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.quote-author {
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .calculator-grid {
+    grid-template-columns: 1fr;
+  }
+}
