@@ -74,12 +74,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Header, footer, and main content body** - I did not complete this part of the deliverable.
-- [ ] **Navigation elements** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
-- [ ] **Application images** - I did not complete this part of the deliverable.
+- [x] **Header, footer, and main content body** - Implemented header with background, nice footer with proper spacing, and well-structured main content areas.
+- [x] **Navigation elements** - Bootstrap nav, very nice.
+- [x] **Responsive to window resizing** - All elements should scale properly and maintain usability.
+- [x] **Application elements** - Styled all form elements, buttons, tables, and other components.
+- [x] **Application text content** - Applied consistent fonts with proper hierarchy, appropriate sizing, and has good contrast.
+- [x] **Application images** - Styled logo and images with proper sizing and consistent placement within the layout.
 
 ## 🚀 React part 1: Routing deliverable
 

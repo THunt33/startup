@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -35,6 +38,7 @@ main {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
+  flex: 1;
 }
 
 footer {
@@ -42,7 +46,7 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: auto;
 }
 
 footer a {
